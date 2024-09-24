@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal web page</title>
+    <style>
+        .about-me {
+            text-align: center;
+            margin: 20px;
+        }
+        .profile-pic {
+            width: 300px; 
+            height: 300px; 
+            object-fit: cover; 
+            border-radius: 50%;
+        }
+        .place {
+            margin-bottom: 20px;
+        }
+        .place img {
+            width: 300px;
+            height: auto;
+        }
+        .dish {
+            margin-bottom: 20px;
+        }
+        .dish img {
+            width: 300px; 
+            height: auto; 
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Personal Webpage!</h1>
+    <!-- About Me section -->
+    <div class="about-me">
+        <h2>About Me</h2>
+        <img src="Navreet.jpg" alt="Navreet's profile photo" class="profile-pic"/>
+        <p>I'm Navreet Kaur. I'm currently pursuing my Master's degree in Computer Science. I completed my Bachelor's in Computer Application from Punjab, India. On my this personal web page i would like to share about me like what i like to do in my free time, favourite places to visit and so on...</p>
+    </div>
+    <hr>
+
+     <!-- Section: Favorite Places to Visit -->
+    <h3>Some of My Favorite Places to Visit</h3>
+    <br>
+    <ul>
+        <li class="place">
+            <h3>Amritsar</h3>
+            <img src="amritsar.jpg" alt="Golden Temple, Amritsar">
+            <p>Amritsar is known for the Golden Temple, a significant spiritual site for Sikhs and a symbol of peace and tranquility.The Golden Temple is an open house of worship for all people, from all walks of life and faiths. It has a square plan with four entrances, and a circumambulation path around the pool. The four entrances to the gurudwara symbolises the Sikh belief in equality and the Sikh view that all people are welcome into their holy place. As I am sikh so like to visit this place.</p>
+        </li>
+        <li class="place">
+            <h3>Chandigarh</h3>
+            <img src="rock-garden.jpg" alt="Rock Garden, Chandigarh">
+            <p>Chandigarh is famous for its unique architecture, especially the Rock Garden, which is a beautiful sculpture garden made from industrial and home waste.The Rock Garden sits near Sukhna Lake. It consists of man-made interlinked waterfalls and many other sculptures that have been made of scrap and other kinds of waste (bottles, glasses, bangles, tiles, ceramic pots, sinks, electrical waste, broken pipes, etc.) which are placed in walled paths. This place is really beautiful to visit.</p>
+        </li>
+        <li class="place">
+            <h3>Lake Clementine</h3>
+            <img src="Lake-Clementine.webp" alt="Lake Clementine">
+            <p>Lake Clementine is one of the most beautiful, serene lakes in Northern California. Located on the North Fork of the American River in the Auburn State Recreation Area, this stunning destination is split into two sections: Upper and Lower Lake Clementine. Lake Clementine is a stunning reservoir surrounded by scenic views, perfect for a relaxing day of hiking and picnicking.</p>
+        </li>
+    </ul>
+</br>
+    <hr/>
+
+    <!-- Section: Favorite Cuisine -->
+   <br>
+    <h2>Favourite Cuisine</h2>
+    <p>As I am Punjabi so I Love Punjabi cuisine. Punjabi cuisine is renowned for its rich, robust flavors and generous use of spices. Originating from the Punjab region of India and Pakistan, this culinary tradition reflects a blend of cultural influences, making it a favorite among food lovers worldwide. Punjabi food is often characterized by its hearty meals, which include a variety of vegetarian and non-vegetarian dishes.</p>
+    
+
+    <h3>Popular Vegetarian Punjabi Dishes</h3>
+    <ul>
+        <li class="dish">
+            <h3>Palak Paneer</h3>
+            <img src="palak-paneer.avif" alt="Palak Paneer">
+            <p>Palak Paneer is made with fresh spinach and paneer (Indian cottage cheese), cooked in a rich, spiced gravy. This dish is not only nutritious but also pairs well with roti or rice.</p>
+        </li>
+        <li class="dish">
+            <h3>Aloo Gobi</h3>
+            <img src="aloo-gobi.jpg" alt="Aloo Gobi">
+            <p>Aloo Gobi is a flavorful combination of potatoes (aloo) and cauliflower (gobi), seasoned with turmeric and other spices. It's a staple in many Punjabi households and is often enjoyed with chapati.</p>
+        </li>
+        <li class="dish">
+            <h3>Chole Bhature</h3>
+            <img src="chole-bhature.jpeg" alt="Chole Bhature">
+            <p>Chole Bhature features spicy chickpeas (chole) served with deep-fried bread (bhature). This dish is a popular choice for breakfast or lunch and is loved for its bold flavors.</p>
+        </li>
+        <li class="dish">
+            <h3>Makki di Roti & Sarson da Saag</h3>
+            <img src="saag-roti.avif" alt="Makki di Roti and Sarson da Saag">
+            <p>Makki di Roti (corn flatbread) paired with Sarson da Saag (mustard greens) is a classic Punjabi dish. This hearty combination is especially popular in winter and is typically served with a dollop of butter.</p>
+        </li>
+    </ul>
+    </br>
+    <blockquote>
+        <p>"Food is not just what we eat; it's the love and effort we put into preparing it." – A famous saying in Punjabi culture.</p>
+    </blockquote>
+
+    <p>Exploring Punjabi cuisine offers a delicious journey filled with flavors and traditions. Whether you're enjoying a meal at home or in a restaurant, these dishes bring people together.</p>
+
+    <hr>
+    <!-- External link to more information about Punjabi cuisine -->
+    <p>For more information about Punjabi cuisine, check out this <a href="https://www.indianruchi.com" >Punjabi Cuisine Resource</a>.</p>
+     
+    <!-- Section: User selection for interest in Punjabi cuisines -->
+    <h4>Do you find Punjabi cuisines interesting?</h4>
+    <p>Please select an option:</p>
+    <select name="punjabi-cuisine-interest">
+        <option value="yes">Yes, I love it!</option>
+        <option value="somewhat">Somewhat, it's okay.</option>
+        <option value="no">No, not really.</option>
+    </select>
+    <hr>
+    <br/><br/>
+    <!-- Section: My Hobbies -->
+    <h2>My Hobbies</h2>
+    <center>
+    <table>
+        <tr>
+            <th>HOBBY</th>
+            <th>FAVOURITE</th>
+            <th>LAST TIME I DID THIS ACTIVITY</th>
+        </tr>
+        <tr>
+            <td>Reading Books</td>
+            <td>Favorite Writer: Brian Weiss</td>
+            <td>During my summer break</td>
+        </tr>
+        <tr>
+            <td>Listening to music</td>
+            <td>Favorite Singers: Diljit Dosanjh, Karan Aujla</td>
+            <td>morning(I often listen to music)</td>
+        </tr>
+        <tr>
+            <td>Draw Henna</td>
+            <td>No specific</td>
+            <td>During my summer break</td>
+        </tr>
+    </table>
+    </center>
+    <hr>
+    <p>If you want to see my book recommendations, <a href="recommended-books.html" target="_blank">click this link</a>.</p>
+    <hr>
+</body>
+</html>
